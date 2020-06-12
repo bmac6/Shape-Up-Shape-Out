@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div id="shape-input">
+        <div>
+            <h3>Rectangle</h3>
+            <label for="rec-width">Width: </label>
+            <input type="text" name="rec-width" id="rec-width">
+            <label for="rec-height">Height: </label>
+            <input type="text" name="rec-height" id="rec-height">
+            <input id="recButton" type="button" value="create">
+        </div>
+        <div>
+            <h3>Square</h3>
+            <label for="square-length">Side Length: </label>
+            <input type="text" name="square-length" id="square-length">
+            <input id="squareButton" type="button" value="create">
+        </div>
+        <div>
+            <h3>Circle</h3>
+            <label for="circle-length">Radius: </label>
+            <input type="text" name="circle-radius" id="circle-radius">
+            <input id="circleButton" type="button" value="create">
+        </div>
+        <div>
+            <h3>Triangle</h3>
+            <label for="circle-length">Height: </label>
+            <input type="text" name="triangle-height" id="triangle-height">
+            <input id="triangleButton" type="button" value="create">
+        </div>
+
+        <div id="container">
+            <div id="shape-container"></div>
+            <div id="shape-specs">
+                <div id="shape-name-specs">Shape Name: </div>
+                <div id="shape-width-specs">Width: </div>
+                <div id="shape-height-specs">Height: </div>
+                <div id="shape-radius-specs">Radius: </div>
+                <div id="shape-area-specs">Area: </div>
+                <div id="shape-perimeter-specs">Perimeter: </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,32 @@
+#shape-container {
+  position: relative;
+  height: 600px;
+  width: 600px;
+  background-color: grey;
+}
+
+.shape {
+  position: absolute;
+}
+
+#shape-specs {
+  font-size: 2em;
+  height: 600px;
+  width: 250px;
+  background-color:lightseagreen;
+}
+
+#container {
+  display: flex;
+}
+
+.circle {
+  border-radius: 50%;
+}
+
+.triangle {
+  width: 0;
+  height: 0;
+  border-top: solid yellow;
+  border-right: solid transparent;
+}
